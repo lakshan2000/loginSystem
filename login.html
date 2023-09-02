@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main">
+        <div class="hbutton">
+ 
+             <div style="display: flex;justify-content: left;width: 100vw;">
+                 <h1 style="margin: 0px;">Store Name </h1>
+             </div>
+             
+             <button class ="headbutton" onclick="location.href='home.php'">Home</button>
+             <button class ="headbutton">Help Center</button>
+             <button class ="headbutton">Contact</button>
+             <button class ="headbutton">About</button>
+ 
+         </div>
+     </header>
+ 
+<div class="background-container">    
+    <div class="index_main_container">
+        <h2 id="head">Login</h2>
+    
+        <div class="index_container">
+            
+                <form action="login.php" method="post">
+                    <lable for="username">User Name : </lable>
+                    <input class="index_input" id="username" name="username" placeholder="User Name" required>
+                    <br>
+                    <lable for="password">Password &nbsp;&nbsp;&nbsp;: </lable>
+                    <input class="index_input" id="password" name="password" placeholder="Password" required>
+                    <br>
+                    <!-- <h4 style="color:red;font-size: 15px;margin:0px;display:none">User name or password is Incorect<h4> -->
+                    <button id="index_login" type="submit" >Login</button>
+
+                    
+                </form>
+            
+
+                <div>
+                    <a style="color:rgb(23, 196, 81);" id="forgotten" href="forgottnpassword.html" target="_blank">Forgotten Password ?</a>
+                    <br><br>
+                    <p>If you Haven't Account yet ?</p>
+                    <button id="index_register" onclick="location.href='register.html'">Register</button>
+                </div>
+            
+
+        </div>
+    </div>
+</div>
+
+    <footer>
+        The end of the page.<br>
+        specify leagal condition etc...
+    </footer>
+
+    
+</body>
+</html>

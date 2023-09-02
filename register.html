@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main">
+        <div class="hbutton">
+ 
+             <div style="display: flex;justify-content: left;width: 100vw;">
+                 <h1 style="margin: 0px;">Store Name </h1>
+             </div>
+             
+             <button class ="headbutton" onclick="location.href='home.php'">Home</button>
+             <button class ="headbutton">Help Center</button>
+             <button class ="headbutton">Contact</button>
+             <button class ="headbutton">About</button>
+ 
+         </div>
+     </header>
+     
+<div class="background-container">  
+    <div class="reg_container" >
+
+        <form method="post" action="register.php" id="reg_form" >
+            
+<pre>
+<h3 id="reg_head">Register</h3>
+<lable for="First Name">First Name       : </lable><input class="reg_input" id="FirstName" name="FirstName" placeholder="First Name" required>
+<lable for="Last Name">Last Name        : </lable><input class="reg_input" id="LastName" name="LastName" placeholder="Last Name" required>
+<lable for="User Name">User Name        : </lable><input class="reg_input" id="UserName" name="UserName" placeholder="User Name" required>
+<lable for="Email">Email            : </lable><input class="reg_input" id="Email" name="Email" placeholder="Email" required>
+<lable for="password">Password         : </lable><input class="reg_input" id="password" name="Password" placeholder="Password" required>
+<lable for="confirm password">Confirm Password : </lable><input class="reg_input" id="confirm password" name="confirmpassword" placeholder="Confirm Password" required>
+</pre>
+            
+            
+<button id="reg_register" type="submit">Register</button>
+        </form>
+    </div>
+</div>
+    
+
+    <footer>
+        The end of the page.<br>
+        specify leagal condition etc...
+    </footer>
+
+</body>
+</html>
